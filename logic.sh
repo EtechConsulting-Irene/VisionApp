@@ -5,7 +5,8 @@ echo $? = 1 - Catchall for general errors
 echo $? = 2 - Misuse of shell builtins (according to Bash documentation)
 echo $? = 126 - Command invoked cannot execute
 echo $? = 127 - “command not found”
-echo $? = 128 - Invalid argument to exit
 echo $? = 128+n - Fatal error signal “n”
 echo $? = 130 - Script terminated by Control-C
-echo $? = 255\* - Exit status out of rangei
+echo $? = 255\* - Exit status out of range
+#this was just for testing
+# Git is easy
