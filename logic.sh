@@ -9,3 +9,4 @@ echo $? = 128+n - Fatal error signal “n”
 echo $? = 130 - Script terminated by Control-C
 echo $? = 255\* - Exit status out of range
 #this was just for testing
+
