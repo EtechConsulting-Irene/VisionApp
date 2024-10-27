@@ -1,0 +1,4 @@
+Working with visual studio code is easier
+ls -i   --> to display the inode number of a directory content 
+- cp -r d1/*  --> technique to copy the entire directory content at once
+- cp -r d1/*.var --> to copy everything with the '.var' extension (files only Because directories do NOT have extensions)
